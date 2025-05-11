@@ -20,13 +20,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.15*"/>
             <ColumnDefinition Width="40"/>
-            <ColumnDefinition Width="120"/>
-            <ColumnDefinition Width="40"/>
-            <ColumnDefinition Width="120"/>
-            <ColumnDefinition Width="40"/>
-            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="0.15*"/>
             <ColumnDefinition Width="40"/>
             <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
         </Grid.ColumnDefinitions>
 
         <Label Content="Dungeons lvl 1-49:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
