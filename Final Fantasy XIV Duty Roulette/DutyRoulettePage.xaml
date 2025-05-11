@@ -1,0 +1,71 @@
+﻿<Page x:Class="Final_Fantasy_XIV_Duty_Roulette.DutyRoulettePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Final_Fantasy_XIV_Duty_Roulette"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DutyRoulettePage">
+
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".25*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="0.15*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="Dungeon" Content="Select a category below, and press Roll!" Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
+        <Button Content="Roll!" Grid.Row="0" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="Button_Click"/>
+
+        <Label Content="Dungeons lvl 1-49:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons1to49" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <Label Content="Dungeons lvl 50:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons50" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 51-59:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons51to59" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <Label Content="Dungeons lvl 60:" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons60" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 61-69:" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons61to69" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 70:" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons70" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 71-79:" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons71to79" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 80:" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons80" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 81-89:" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons81to89" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 90:" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons90" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 91-99:" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons91to99" Grid.Row="2" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 100:" Grid.Row="3" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="Dungeons100" Grid.Row="3" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </Grid>
+</Page>
