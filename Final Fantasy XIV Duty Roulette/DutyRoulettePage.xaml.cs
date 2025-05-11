@@ -52,15 +52,10 @@ namespace Final_Fantasy_XIV_Duty_Roulette
             InitializeComponent();
 
             // initializing the hash table.
-            map.Add(0, dungeons[0]);
-            map.Add(1, dungeons[1]);
-            map.Add(2, dungeons[2]);
-            map.Add(3, dungeons[3]);
-            map.Add(4, dungeons[4]);
-            map.Add(5, dungeons[5]);
-            map.Add(6, dungeons[6]);
-            map.Add(7, dungeons[7]);
-            map.Add(8, dungeons[8]);
+            for(int i = 0; i < dungeons.Count; i++)
+            {
+                map.Add(i, dungeons[i]);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -80,7 +75,7 @@ namespace Final_Fantasy_XIV_Duty_Roulette
             buttons.Add(Dungeons90);
             buttons.Add(Dungeons91to99);
             buttons.Add(Dungeons100);
-            for(int i = 0; i < 9 && found == false; i++)
+            for(int i = 0; i < dungeons.Count && found == false; i++)
             {
                 if (buttons[i].IsChecked == true)
                 {
