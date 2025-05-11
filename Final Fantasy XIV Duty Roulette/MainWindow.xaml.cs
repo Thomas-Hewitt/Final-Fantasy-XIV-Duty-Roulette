@@ -20,5 +20,16 @@ namespace Final_Fantasy_XIV_Duty_Roulette
         {
             InitializeComponent();
         }
+
+
+        private void Duty_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("DutyRoulettePage.xaml", UriKind.Relative));
+        }
+
+        private void Class_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("ClassRoulettePage.xaml", UriKind.Relative));
+        }
     }
 }
