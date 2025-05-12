@@ -31,40 +31,40 @@
         <Label x:Name="Dungeon" Content="Select a category below, and press Roll!" Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
         <Button Content="Roll!" Grid.Row="0" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="Button_Click"/>
 
-        <Label Content="Dungeons lvl 1-49:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Label Content="Dungeons lvl 1-49:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons1to49" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        
-        <Label Content="Dungeons lvl 50:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 50:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons50" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 51-59:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 51-59:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons51to59" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        
-        <Label Content="Dungeons lvl 60:" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dungeons lvl 60:" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons60" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 61-69:" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 61-69:" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons61to69" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 70:" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 70:" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons70" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 71-79:" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 71-79:" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons71to79" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 80:" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 80:" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons80" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 81-89:" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 81-89:" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons81to89" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 90:" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 90:" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons90" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 91-99:" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 91-99:" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons91to99" Grid.Row="2" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="Dungeons lvl 100:" Grid.Row="3" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Dungeons lvl 100:" Grid.Row="3" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="Dungeons100" Grid.Row="3" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
     </Grid>

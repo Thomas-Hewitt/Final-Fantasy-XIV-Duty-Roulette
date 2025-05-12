@@ -1,0 +1,105 @@
+﻿<Page x:Class="Final_Fantasy_XIV_Duty_Roulette.ClassRoulettePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Final_Fantasy_XIV_Duty_Roulette"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ClassRoulettePage">
+
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".6*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="0.15*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="40"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="Class" Content="Select your classes and press Roll!" Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+        <Button Content="Roll!" Grid.Row="0" Grid.Column="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="Button_Click"/>
+
+        <Label Content="Paladin:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Paladin" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Warrior:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Warrior" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dark Knight:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="DarkKnight" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Gunbreaker:" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Gunbreaker" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="White Mage:" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="WhiteMage" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Scholar:" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Scholar" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Astrologian:" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Astrologian" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Sage:" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Sage" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Monk:" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Monk" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dragoon:" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Dragoon" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Ninja:" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Ninja" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Samurai:" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Samurai" Grid.Row="4" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Reaper:" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Reaper" Grid.Row="5" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Viper:" Grid.Row="6" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Viper" Grid.Row="6" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Bard:" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Bard" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Machinist:" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Machinist" Grid.Row="2" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Dancer:" Grid.Row="3" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Dancer" Grid.Row="3" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Black Mage:" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="BlackMage" Grid.Row="1" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Summoner:" Grid.Row="2" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Summoner" Grid.Row="2" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Red Mage:" Grid.Row="3" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="RedMage" Grid.Row="3" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Label Content="Pictomancer:" Grid.Row="4" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="Pictomancer" Grid.Row="4" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <Label Content="Blue Mage:" Grid.Row="5" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <CheckBox x:Name="BlueMage" Grid.Row="5" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </Grid>
+</Page>
