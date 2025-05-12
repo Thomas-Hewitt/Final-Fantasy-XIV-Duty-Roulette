@@ -51,7 +51,7 @@ namespace Final_Fantasy_XIV_Duty_Roulette
 
         private async Task Silly_Animation(Random rng, List<int> keys)
         {
-            int randtime = rng.Next((1 * keys.Count), (4 * keys.Count));
+            int randtime = rng.Next(2, (2 * keys.Count));
             for (int i = 0; i < randtime; i++)
             {
                 Class.Content = classes[keys[rng.Next(0, keys.Count)]];
